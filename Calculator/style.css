@@ -1,0 +1,114 @@
+body {
+  background-image: url(./images/Group\ 40.png);
+  object-fit: cover;
+  background-size: cover;
+  font-family: Avenir;
+}
+
+.Rectangle-15 {
+  width: 491px;
+  height: 794px;
+  margin: 68px 280px 32px 196px;
+  padding: 0 0 69px;
+  border-radius: 40px;
+  background-color: #e0e0e0;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 12px 20px 0 rgb(0 0 0 / 25%);
+  border: solid 2px #ffffff;
+}
+
+.Rectangle-5 {
+  width: 491px;
+  height: 260px;
+  margin: 0 0 7vh;
+  /* padding: 115px 93px 23px 64px; */
+  background-color: #141414;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  border-radius: 40px;
+  position: relative;
+}
+#display {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  width: 450px;
+  height: 120px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  border-radius: 40px;
+  text-align: end;
+  color: white;
+  background-color: #141414;
+  font-size: 4em;
+  border: none;
+  text-decoration: none;
+  font-family: inherit;
+  outline: none;
+  padding-right: 30px;
+}
+
+.button {
+  box-shadow: 4px 4px 12px 0 rgba(164, 162, 159, 50%),
+    -4px -4px 12px 0 rgba(255, 255, 255, 100%);
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  background: #e0e0e0;
+  display: inline-block;
+  margin: 10px;
+  border: solid 2px #f0f0f0;
+  transition: 1s;
+}
+
+#button_center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0vh;
+}
+
+.button a {
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.equal_sign {
+  background-color: #141414;
+  width: 165px;
+}
+
+.equal_sign a {
+  margin-top: 13%;
+  color: white;
+}
+
+.numbers a {
+  color: black;
+}
+
+.button:hover {
+  /* box-shadow: inset -10px -10px 10px #ffffff70, inset 10px 10px 10px #aeaec020; */
+  border: solid 2px #939393;
+  transition: 0, 5s;
+}
+
+.button:hover.equal_sign {
+  background-color: #e0e0e0;
+  box-shadow: 4px 4px 12px 0 rgba(164, 162, 159, 50%),
+    -4px -4px 12px 0 rgba(255, 255, 255, 100%);
+}
+
+.button:hover.equal_sign a {
+  color: #141414;
+}
+
+.button:active {
+  box-shadow: inset -10px -10px 10px #ffffff70, inset 10px 10px 10px #aeaec020;
+  transition: 1s;
+}
